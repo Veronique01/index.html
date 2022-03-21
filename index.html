@@ -1,0 +1,301 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Buchwebsite</title>
+<style type="text/css">
+	
+* { 
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+
+}
+
+#center {
+	margin:auto;
+	width: 1000px;
+    height: 1250px;
+	background-color: black;
+	border: solid 4px #3C474B;
+}
+
+	#text-algin:center {
+		
+	}
+	
+body { 
+		background-image:url(Background.jfif);
+	 	background-repeat:repeat-x;
+         background: no-repeat;
+		 background-color: black;
+	     font:normal 1em sans-serif;
+
+
+}
+
+#logo {
+		
+    background: url(Diamant2.gif) no-repeat left;
+        background-color: #f696e6 ;
+      color: white; 
+	  padding: 2%;
+	  text-align:center;
+      height: 150px;
+		
+}
+
+#navi li {
+	    display: inline-block;
+		list-style: none;
+	    text-decoration: none;
+	    border-bottom: #335e dotted 2px;
+		color: white;
+}
+
+#navi {
+	    display: block;
+		text-align:center;
+        background-color: black;
+		color: white;
+		overflow:hidden;
+		border: #335e dotted 2px;
+		list-style: none;
+		height: 60px;
+}
+
+/*Höhenänderung auf 3em, Farbänderung und Transition*/
+#navi:hover {
+	    height: 3em;
+		color: white;
+		padding-top: 10px;
+		transition: 0.5s;
+        list-style: none;
+}
+
+
+#navi a{
+	padding-right: 90px;
+	list-style: none;
+}
+
+
+	
+	 
+	 h2 {
+	
+	color: green;
+}
+
+p{
+	
+	color: white;
+}
+
+h1 {
+
+    font-size: 120px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+
+
+#navi {
+		
+		border-bottom:4px  double #3C474B;
+		border-top:4px  double #3C474B;
+		padding:12px 0px;
+		font-family:Arial, Helvetica, sans-serif;
+		
+		background-color: black;
+		font-size:2.1em;
+
+}
+
+#navi li {
+			display:inline;
+			margin:25px;
+}
+
+#navi a { 
+			display:inline;
+			color:#FFF;
+			text-decoration:none;
+}
+
+
+
+#navi a:hover {
+				color:#333;
+				
+}
+
+
+	
+	#shoppen {
+		height: 35px;
+		background-color: black;
+		color: white;
+		text-align: center;
+		font-size: 25px;
+		
+	}
+
+#linkeSpalte {
+				float:left;
+				width:417px;
+				padding: 4px;
+				margin: 10px 10px 10px 25px;
+	
+	            background-color: black;
+				
+}
+				
+p.fett:first-letter{
+	
+					font-weight:bold;
+					font-size:2.4em;
+	
+}
+
+.slideshow-container {
+  width: 600px;
+  position: relative;
+  margin: auto;
+  animation-duration: 5s;      
+}
+	
+	.mySlides {
+		display: none;
+	}
+	
+ .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+	
+	
+	
+
+	
+#rechteSpalte {
+ 				float:right;
+				padding:4px;
+				margin:10px;
+				width:342px;
+	font-size: 25px;
+	background-color: black;
+				
+
+
+}
+
+#footer {
+	
+	clear: both;
+	height:70px;
+	background-color:#FFF;
+	text-align:left;
+	color: black;
+
+	
+}
+
+</style>
+</head>
+
+<body>
+<div id="center">
+
+<!--Logo-->
+	<div id="logo">
+
+      <h1>Boujey</h1>  
+    </div>
+
+      
+<!--Navigation-->
+	<div id="navi">
+		<ul>
+			<li><a href="#">Women</a></li>
+			<li><a href="#">Lashes</a></li>
+            <li><a href="#">Hair</a></li>
+		</ul>
+	</div>
+	
+	<div class="slideshow-container">
+		<img src="Nicki.jpeg" height="600px" width="600px">
+      </div>
+		
+		<div class="slideshow-container">
+		
+      </div>
+     
+		
+		<div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    
+    <div class="text">Caption Three</div>
+  </div>
+		
+		 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<br>
+	
+	<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+
+</div>
+
+	<div id="shoppen">
+	
+	<i>SHOP NOW</i>
+	</div>
+	
+	
+	
+	
+<!--Linke Spalte-->
+	<div id="linkeSpalte"> 
+		
+			<img src="Set.jpg" width="400px"
+height="250px" align="center"/>
+	
+	</div>
+	
+<!--Rechte Spalte-->
+	<div id="rechteSpalte" >
+		<p class="fett"> Set mit Lashes und Lipgloss </p>
+<p>  Zur jeder Bestellung über 150€ oder als Einzelkauf für 6€</p>
+	</div>
+	
+<!--Footer-->
+	<div id="footer">
+
+		Kontakt: </br>
+	<a href="#" >E-mail: Boujey@gmail.com</a></br>
+	Instergram: Boujey</br>  TAG US #slaybyBoujey</br>
+	
+	
+	</div>
+	</div>
+</div>
+	
+	
+
+</body>
+
+</html>
